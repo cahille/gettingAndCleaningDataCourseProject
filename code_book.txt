@@ -1,0 +1,17 @@
+Here are some variables created by the script.
+
+data - a data frame with all the rows of data across the 76 columns. I went with rows that contained (case insensitively) mean and std, getting rid of freq columns. Contains combination of the test and train data as well as columns for subjects and activities.
+
+features - a character vector containing the names of the data columns that were used (from features.txt)
+
+labels - a lookup table for the names of the labels (from activity_labels.txt)
+
+meltData - the data that resulted from the melt command
+
+subject - a list of the subjects involved in the observations (from subject_test.txt and subject_train.txt)
+
+x - a merge of the x test and train data with all columns included (from X_test.txt and X_train.txt)
+
+y - a merge of the y test and train data with all columns included (from y_test.txt and y_train.txt)
+
+there are a few other interim variables that were combined to form the above
